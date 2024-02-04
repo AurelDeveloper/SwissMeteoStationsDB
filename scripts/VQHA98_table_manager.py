@@ -1,7 +1,10 @@
 import pandas as pd
 import requests
 import sqlite3
+from config import config
 from io import StringIO
+
+
 
 def download_csv(url='https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA98.csv'):
     response = requests.get(url)
@@ -36,8 +39,8 @@ def insert_into_sqlite(data, db_path):
 csv_url = 'https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA98.csv'
 csv_data = download_csv(url=csv_url)
 
-db_path = '../../deine_datenbank.db'
-schema_path = '../../schema/VQHA98_database_schema.sql'
+db_path = config.SNOWDATA_SQLITE
+schema_path = '.snowdata_table_schema.sql'
 
 schema = read_sql_schema(schema_path)
 create_sqlite_table(db_path, schema)
