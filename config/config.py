@@ -1,1 +1,1 @@
-SNOWDATA_SQLITE = 'SnowData.sqlite'
+SNOWDATA_SQLITE = '../snowdata.sqlite'
