@@ -37,7 +37,7 @@ def check_new_data(db_path, max_date_in_db, max_date_in_csv):
         exit(0)
 
 db_path = SNOWDATA_SQLITE
-schema_path = 'snowdata_table_schema.sql'
+schema_path = '../src/sql/snowdata_table_schema.sql'
 csv_url = 'https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv'
 
 csv_content = download_csv(url=csv_url)

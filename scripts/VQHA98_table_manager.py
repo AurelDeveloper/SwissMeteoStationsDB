@@ -40,7 +40,7 @@ csv_url = 'https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA98.cs
 csv_data = download_csv(url=csv_url)
 
 db_path = SNOWDATA_SQLITE
-schema_path = 'snowdata_table_schema.sql'
+schema_path = '../src/sql/snowdata_table_schema.sql'
 
 schema = read_sql_schema(schema_path)
 create_sqlite_table(db_path, schema)
