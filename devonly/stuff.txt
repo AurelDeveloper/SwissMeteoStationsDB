@@ -1,0 +1,38 @@
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/info/VQHA80_de.txt
+contains a list of stations with all their
+ * metadata.
+
+
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv
+
+
+https://github.com/marcelstoer/open-data-smn.   kotlin
+
+
+https://github.com/zifeo/swissmetnet
+
+
+https://github.com/lukasmergenthaler/swissmetnet/blob/master/swissmetnet.py
+
+
+
+
+SLF:
+------
+https://measurement-data.slf.ch
+https://www.slf.ch/en/avalanche-bulletin-and-snow-situation/measured-values/description-of-manual-measuring-sites/
+https://www.slf.ch/de/lokale-datensatzsammlung/lawinenbulletin/messwerte-beschreibungen/
+
+IMIS CSV DATA URL:
+https://measurement-data.slf.ch/imis/data/daily_snow_values/daily_snow.csv
+
+
+
+
+
+
+https://www.google.com/maps/d/u/0/viewer?mid=1tbT0RfXiUX6uGO1HcWW95Ms8hSM&femb=1&ll=46.936060862328574%2C9.226974653124897&z=10
+
+
+
+https://ch.wetterstationen.dtn.com/?map=Schweiz&station=069083
