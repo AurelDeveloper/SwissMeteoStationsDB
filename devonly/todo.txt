@@ -1,0 +1,4 @@
+-IMIS station script
+-IMIS Table mit Union
+-5-10 Station <--> Ski fetlegen
+-??

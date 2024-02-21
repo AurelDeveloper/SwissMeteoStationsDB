@@ -24,8 +24,7 @@ https://www.slf.ch/en/avalanche-bulletin-and-snow-situation/measured-values/desc
 https://www.slf.ch/de/lokale-datensatzsammlung/lawinenbulletin/messwerte-beschreibungen/
 
 IMIS CSV DATA URL:
-https://measurement-data.slf.ch/imis/data/daily_snow_values/daily_snow.csv
-
+https://measurement-api.slf.ch/public/api/imis/measurements-precipitation
 
 
 
