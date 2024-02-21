@@ -1,45 +1,32 @@
-# SwissSnowFinderDB 🏔️❄️
+# SwissSnowFinderDB
 
-Welcome to the SwissSnowFinderDB project! This Python and SQL initiative revolves around scraping CSV data, storing it in a database, and utilizing SQL to connect ski stations with nearby weather stations. The algorithm determines optimal snow conditions for users and sends notifications through the upcoming app. 🎿🌦️
+Welcome to the SwissSnowFinderDB project! This Python and SQL initiative focuses on extracting CSV and JSON data, storing it in a database, and using SQL to connect ski stations with nearby weather stations. The algorithm determines optimal snow conditions for users and creates an API to send the optimal snow conditions to the App.
 
-## Features ✨
+## Features ⚙️
 
-- **Data Retrieval**: Scraping CSV data from various sources.
-- **Database Integration**: Storing data in an SQL database for efficient access.
+- **Data Retrieval**: Extracting CSV and JSON data from URLs.
+- **Database Integration**: Efficient storage in an SQLite3 database.
 - **SQL Linkages**: Connecting ski stations with nearby weather stations for precise information.
+
+## ToDo 📋
+
 - **Optimal Conditions Algorithm**: Determining the best snow conditions based on various factors.
-- **App Notifications**: Users receive notifications about upcoming optimal ski conditions.
+- **App Notifications**: Users receive notifications about upcoming optimal ski conditions on their App.
 
-## Installation 🚀
+**⛔️(The app will be developed in another repository)**
 
-To use the project, follow these simple steps:
+## Data source 💾
 
-1. Clone the repository:
+**JSON:**
+- IMIS Weather Station: [`IMIS Measurements Precipitation`](https://measurement-api.slf.ch/public/api/imis/measurements-precipitation)
 
-   ```bash
-   git clone https://github.com/your-username/SwissSnowFinderDB.git
-   ```
+**CSV:**
+- VQHA80 Weather Station: [`VQHA80 Measurements`](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv)
+- VQHA98 Weather Station: [`VQHA98 Measurements`](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA98.csv)
 
-2. Install the required dependencies:
+## Technologie 📟
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+- `SQLite3`
+- `Python`
+- `pandas`
 
-3. Run the main script:
-
-   ```bash
-   python main.py
-   ```
-
-4. Enjoy optimal snow conditions and notifications!
-
-## Contribution 👋
-
-We welcome contributions to enhance this project. Feel free to report issues or submit pull requests.
-
-## License 📝
-
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for more details.
-
-Happy skiing! 🌨️❄️
