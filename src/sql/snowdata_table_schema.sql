@@ -33,7 +33,6 @@ CREATE TABLE IF NOT EXISTS ski_stations (
 -- weather_stations
 CREATE TABLE IF NOT EXISTS weather_stations(
      id INTEGER PRIMARY KEY
-
 );
 
 -- many-to-many between ski stations and weather stations

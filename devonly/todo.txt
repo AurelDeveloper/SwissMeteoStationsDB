@@ -1,4 +1,4 @@
--IMIS station script
--IMIS Table mit Union
+-IMIS station script _/
+-IMIS Table mit Union _/
 -5-10 Station <--> Ski fetlegen
--??
+-IMIS & VQHA Stations position scrapen
