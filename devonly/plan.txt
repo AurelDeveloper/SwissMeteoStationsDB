@@ -1,5 +1,0 @@
-IMIS
-
-VQHA
-
-IMIS - nimmt die url (https://stationdocu.slf.ch/pdf/IMIS_CMA2_DE.pdf) ersetzt d
